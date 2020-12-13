@@ -1,9 +1,10 @@
 <template>
-  <NavBar />
+  <!-- <NavBar /> no nav bar while under development -->
   <router-view />
 </template>
 
 <script>
+/*
 import NavBar from "@/components/NavBar.vue";
 export default {
   name: "base",
@@ -11,6 +12,7 @@ export default {
     NavBar
   }
 };
+*/
 </script>
 
 <style>
