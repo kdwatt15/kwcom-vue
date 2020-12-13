@@ -11,15 +11,16 @@ const routes = [
     path: "/analyses/:slug",
     name: "analyses",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Analyses.vue")
+      import(/* webpackChunkName: "analyses" */ "../views/Analyses.vue")
   },
   {
     path: "/blog/:slug",
     name: "blogPosts",
-    component: () => import(/* webpackChunkName: "about" */ "../views/Blog.vue")
+    component: () => 
+      import(/* webpackChunkName: "blogs" */ "../views/Blog.vue")
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: "/:pathMatch(.*)*",
     name: "notFound",
     props: false,
     component: () =>
