@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import ChangingImage from "@/components/ChangingImage.vue";
+import ChangingImage from "@/components/ChangingImage";
 export default {
   name: "home",
   components: {
