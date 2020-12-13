@@ -4,6 +4,6 @@
 
 <style scoped>
 img {
-  max-width: 500px;
+  max-width: min(500px, 80%);
 }
 </style>
