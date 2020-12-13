@@ -1,5 +1,5 @@
 <template>
-  <nav-bar class="nav">
+  <div class="nav">
     <router-link
       class="navbtn"
       :to="{
@@ -38,7 +38,7 @@
         </li>
       </div>
     </div>
-  </nav-bar>
+  </div>
 </template>
 
 <script>

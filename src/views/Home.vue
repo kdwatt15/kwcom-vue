@@ -39,8 +39,4 @@ export default {
 p {
   color: rgb(80, 79, 79);
 }
-img {
-  max-height: 40em;
-  width: auto;
-}
 </style>
